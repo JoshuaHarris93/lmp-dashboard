@@ -75,6 +75,15 @@ export type FormattedCustomersTable = {
   total_paid: string;
 };
 
+export type FormattedCustomersCards = {
+  id: string;
+  name: string;
+  info: string;
+  role: 'Partner' | 'Associate' | 'Support' | 'Collaborator';
+  email: string;
+  image_url: string;
+};
+
 export type CustomerField = {
   id: string;
   name: string;
